@@ -41,7 +41,7 @@ http://localhost/osTicket
 
 </p>
 <p>
-In osTicket you configure roles for grouping permissions.
+- In osTicket you configure roles for grouping permissions.
 
 </p>
 
@@ -50,15 +50,15 @@ https://github.com/user-attachments/assets/5c125661-aa44-40b9-ad4e-bf89f3aee146
 
 
 
-Admin Panel -> Agents -> Roles > Add new role , for this example (Supreme Admin)
+- Admin Panel -> Agents -> Roles > Add new role , for this example (Supreme Admin)
 <br />
 
 <p>
 <img width="400" alt="Add a Department" src="https://github.com/user-attachments/assets/bf82a8c1-2a9a-4869-8056-1c9329f6fe33" />
 </p>
 <p>
-Configure Departments (Ticket Visibility, Help Desk vs SysAdmins vs Networking
-Admin Panel > Agents > Departments > Choose Departments, for this example (SysAdmins)
+- Configure Departments (Ticket Visibility, Help Desk vs SysAdmins vs Networking
+- Admin Panel > Agents > Departments > Choose Departments, for this example (SysAdmins)
 <br />
 
 <p>
@@ -67,10 +67,10 @@ Admin Panel > Agents > Departments > Choose Departments, for this example (SysAd
 
 </p>
 <p>
-Configure Teams 
-</p> Admin Panel > Agents > Teams (Pull Agents from different departments) > for this example (Online Banking)
-</p> You can also allow anyone to create tickets
-</p> Admin Panel > Settings > User Settings (UNCHECK: unregistered users can create tickets)
+- Configure Teams 
+</p> - Admin Panel > Agents > Teams (Pull Agents from different departments) > for this example (Online Banking)
+</p> - You can also allow anyone to create tickets
+</p> - Admin Panel > Settings > User Settings (UNCHECK: unregistered users can create tickets)
 <br />
 <p>
 <img width="500" alt="Add Agents" src="https://github.com/user-attachments/assets/e3f442e6-2413-4d76-962d-e5f43d336890" />
