@@ -6,10 +6,6 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -45,21 +41,23 @@ http://localhost/osTicket
 
 </p>
 <p>
-In osTicket you configure roles for grouping permissions </p>
+In osTicket you configure roles for grouping permissions.
+
+</p>
 
 
 https://github.com/user-attachments/assets/5c125661-aa44-40b9-ad4e-bf89f3aee146
 
 
 
-Admin Panel -> Agents -> Roles > Add new role , for this example (Supreme Admin) </p>
+Admin Panel -> Agents -> Roles > Add new role , for this example (Supreme Admin)
 <br />
 
 <p>
 <img width="400" alt="Add a Department" src="https://github.com/user-attachments/assets/bf82a8c1-2a9a-4869-8056-1c9329f6fe33" />
 </p>
 <p>
-Configure Departments (Ticket Visibility, Help Desk vs SysAdmins vs Networking </p>
+Configure Departments (Ticket Visibility, Help Desk vs SysAdmins vs Networking
 Admin Panel > Agents > Departments > Choose Departments, for this example (SysAdmins)
 <br />
 
@@ -69,23 +67,22 @@ Admin Panel > Agents > Departments > Choose Departments, for this example (SysAd
 
 </p>
 <p>
-Configure Teams </p>
-Admin Panel > Agents > Teams (Pull Agents from different departments) > for this example (Online Banking) </p>
+Configure Teams 
+</p> Admin Panel > Agents > Teams (Pull Agents from different departments) > for this example (Online Banking)
 </p> You can also allow anyone to create tickets
 </p> Admin Panel > Settings > User Settings (UNCHECK: unregistered users can create tickets)
 <br />
-
 <p>
 <img width="500" alt="Add Agents" src="https://github.com/user-attachments/assets/e3f442e6-2413-4d76-962d-e5f43d336890" />
 
 https://github.com/user-attachments/assets/aa5a3671-489a-4eb6-9497-d6e433dcfde3
 
 </p>
-<p>
-Configure Agents (workers)
-Admin Panel > Agents > Add new
-- Jane (Dept: SysAdmins)
-- John (Dept: Support)
+
+* Configure Agents (workers)
+* Admin Panel > Agents > Add new
+* Jane (Dept: SysAdmins)
+* John (Dept: Support)
 <br />
 
 <p>
@@ -93,11 +90,10 @@ Admin Panel > Agents > Add new
 <img width="400" alt="Add User PArt 2" src="https://github.com/user-attachments/assets/9e034ce5-85f4-4bf9-99b0-a7708ada945b" />
 
 </p>
-<p>
-Configure Users (customers)
-Agent Panel > Users > Add New
-- Karen
-- Ken
+
+* Configure Users (customers)
+* Agent Panel > Users > Add New
+* Karen
 <br />
 
 <p>
@@ -107,12 +103,12 @@ Agent Panel > Users > Add New
 <img width="500" alt="Sev C" src="https://github.com/user-attachments/assets/cfb09144-5fe7-4106-9d32-f9abc59afcfe" />
 
 </p>
-<p>
-Configure SLA 
-Admin Panel > Manage > SLA 
-- Sev-A
-- Sev-B
-- Sev-C 
+
+* Configure SLA 
+* Admin Panel > Manage > SLA 
+* Sev-A
+* Sev-B
+* Sev-C 
 <br />
 
 <p>
@@ -122,11 +118,11 @@ Admin Panel > Manage > SLA
 
 
 </p>
-<p>
-Configure Help Topics (For when users create a ticket)
-Admin Panel > Manage > Help Topics
-- Business Critical Outage
-- Personal Computer Issues
-- Equipment Request
-- Password Reset
-- Other 
+
+* Configure Help Topics (For when users create a ticket)
+* Admin Panel > Manage > Help Topics
+* Business Critical Outage
+* Personal Computer Issues
+* Equipment Request
+* Password Reset
+* Other 
